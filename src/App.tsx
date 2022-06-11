@@ -1,7 +1,7 @@
 const App = (): JSX.Element => {
   return (
-    <div>
-      <p>Meow!</p>
+    <div className="w-full h-screen flex items-center justify-center">
+      <p className="p-2">Meow!</p>
     </div>
   );
 };
