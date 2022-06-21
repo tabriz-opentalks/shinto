@@ -14,9 +14,10 @@ import TablePagination from './TablePagination';
 type Props = {
   columns: Column<Record<string, unknown>>[];
   data: Record<string, unknown>[];
+  onClickAction: () => void;
 };
 
-const Table = ({ columns, data }: Props): JSX.Element => {
+const Table = ({ columns, data, onClickAction }: Props): JSX.Element => {
   const {
     getTableProps,
     getTableBodyProps,
@@ -44,9 +45,12 @@ const Table = ({ columns, data }: Props): JSX.Element => {
 
   return (
     <div className="w-full flex flex-col space-y-6">
-      <TableGlobalFilter onChange={setGlobalFilter} />
+      <TableGlobalFilter
+        onChange={setGlobalFilter}
+        onClickAction={onClickAction}
+      />
 
-      <div className="overflow-x-auto relative sm:rounded-lg">
+      <div className="overflow-x-auto relative sm:rounded-xl">
         <table
           {...getTableProps()}
           className="min-w-full divide-y divide-gray-200"

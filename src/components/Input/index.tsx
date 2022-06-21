@@ -23,7 +23,7 @@ const TextInput = ({
       name={name}
       disabled={disabled}
       className={classNames(
-        'w-full py-2 px-6 text-gray-800 placeholder-gray-400 rounded-xl border-2 border-gray-300',
+        'w-full py-2 px-6 text-gray-800 placeholder-gray-300 rounded-xl border-2 border-gray-100',
         'transition-colors duration-100 ease-out',
         'disabled:pointer-events-none disabled:bg-gray-100',
         'focus:outline-none focus:border-gray-800',

@@ -21,7 +21,7 @@ const TableBody = ({ rows, prepareRow }: props): JSX.Element => (
               <td
                 {...cell.getCellProps()}
                 key={cell.value}
-                className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
+                className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 capitalize"
               >
                 {cell.render('Cell')}
               </td>
