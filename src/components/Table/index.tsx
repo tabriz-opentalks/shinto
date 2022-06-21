@@ -45,7 +45,7 @@ const Table = ({ columns, data, onClickAction }: Props): JSX.Element => {
   );
 
   return (
-    <div className="w-full flex flex-col space-y-6">
+    <div className="w-full flex flex-col space-y-4 md:space-y-6">
       <TableGlobalFilter
         onChange={setGlobalFilter}
         onClickAction={onClickAction}

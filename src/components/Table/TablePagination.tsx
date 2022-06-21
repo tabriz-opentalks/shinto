@@ -26,7 +26,7 @@ const TablePagination = ({
   pageIndex,
   pageSize,
 }: props): JSX.Element => (
-  <div className="flex items-center justify-between px-0 md:px-4 py-4">
+  <div className="flex items-center justify-between px-6 md:px-4 py-4">
     <div className="flex items-center justify-between space-x-1">
       <button onClick={() => gotoPage(0)}>
         <ChevronDoubleLeftIcon className="w-4 h-4 text-gray-500" />

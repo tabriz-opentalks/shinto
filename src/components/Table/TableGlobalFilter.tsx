@@ -14,7 +14,7 @@ const TableGlobalFilter = ({ onChange, onClickAction }: Props) => {
   );
 
   return (
-    <div className="flex items-center space-x-4">
+    <div className="flex items-center space-x-4 px-4 md:px-0">
       <TextInput
         name="tableGlobalFilter"
         placeholder="Search..."
