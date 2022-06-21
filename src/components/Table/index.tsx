@@ -36,6 +36,7 @@ const Table = ({ columns, data, onClickAction }: Props): JSX.Element => {
     {
       columns,
       data,
+      initialState: { pageSize: 100 },
     },
     useGlobalFilter,
     useFilters,
