@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Sahel;
+    src: url('../assets/fonts/Sahel.eot');
+    src: url('../assets/fonts/Sahel.eot?#iefix') format('embedded-opentype'),
+      url('../assets/fonts/Sahel.woff2') format('woff2'),
+      url('../assets/fonts/Sahel.woff') format('woff'),
+      url('../assets/fonts/Sahel.ttf') format('truetype');
+    font-weight: normal;
+  }
+}
