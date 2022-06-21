@@ -31,6 +31,8 @@
     ]
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "@ramonak/react-excel": "^1.0.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -38,22 +40,33 @@
     "@types/node": "^16.11.39",
     "@types/react": "^18.0.12",
     "@types/react-dom": "^18.0.5",
+    "classnames": "^2.3.1",
+    "nanoid": "^4.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
+    "react-table": "^7.8.0",
     "typescript": "^4.7.3",
-    "web-vitals": "^2.1.4"
+    "use-debounce": "^8.0.1",
+    "use-file-picker": "^1.4.2",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5",
+    "zustand": "^4.0.0-rc.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.2",
     "@commitlint/config-conventional": "^17.0.2",
+    "@types/react-table": "^7.7.12",
     "@typescript-eslint/eslint-plugin": "^5.27.1",
     "@typescript-eslint/parser": "^5.27.1",
+    "autoprefixer": "^10.4.7",
     "eslint": "^8.17.0",
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.1",
-    "prettier": "^2.6.2"
+    "postcss": "^8.4.14",
+    "prettier": "^2.6.2",
+    "tailwindcss": "^3.1.2"
   }
 }
