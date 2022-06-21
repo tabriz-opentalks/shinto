@@ -54,7 +54,7 @@ const TablePagination = ({
         setPageSize(Number(e.target.value));
       }}
     >
-      {[5, 10, 20, 30, 50, 100].map((pageSize) => (
+      {[5, 10, 20, 30, 50, 100, 200].map((pageSize) => (
         <option key={pageSize} value={pageSize}>
           Show {pageSize} items
         </option>
